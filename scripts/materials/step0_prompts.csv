@@ -1,0 +1,9 @@
+,prompts,monosemous,polysemous
+0_0,Does the verb '{}' have only one sense when used in a transitive clause? ,"YES, Yes, yes","NO, No, no"
+0_1,Does the verb '{}' have only one possible meaning when used in a transitive clause? ,"YES, Yes, yes","NO, No, no"
+0_2,Does the verb '{}' have only one sense when used in a transitive clause? Only answer with YES or NO.,"YES, Yes, yes","NO, No, no"
+0_3,Does the verb '{}' have only one possible meaning when used in a transitive clause? Only answer with YES or NO.,"YES, Yes, yes","NO, No, no"
+0_4,Does the verb '{} have MORE THAN one distinct meaning when used in a transitive clause?,"YES, Yes, yes","NO, No, no"
+0_5,Does the verb '{} have more than one distinct meaning when used in a transitive clause?,"YES, Yes, yes","NO, No, no"
+0_6,"When used in a transitive clause, does the verb '{}' have ONE meaning, or MORE THAN ONE distinct meaning?","ONE, One, one","MORE, More, more"
+0_7,"When used in a transitive clause, does the verb '{}' have one meaning, or more than one distinct meaning?","ONE, One, one","MORE, More, more"

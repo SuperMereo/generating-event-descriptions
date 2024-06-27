@@ -1,0 +1,5 @@
+**/.DS_Store
+.ipynb_checkpoints/
+.venv
+.scripts/generation/outs/
+.survey_materials/outs/

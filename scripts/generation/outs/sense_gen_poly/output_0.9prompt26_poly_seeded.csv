@@ -1,0 +1,809 @@
+,verb,llama2 output 1,llama_poly_output
+0,abuse,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'abuse' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'abuse' when it is found in a transitive clause:
+
+1. Misuse or mistreat (something or someone): This sense of 'abuse' refers to using something or someone in a way that is not intended or appropriate, or using it for an unintended purpose. For example, ""She abused her power by taking bribes.""
+2. Use excessively or improperly: This sense of 'abuse' refers to using something or someone in an excessive or improper manner, often to the point of harm or damage. For example, ""He abused his body with drugs and alcohol.""
+3. Physically or emotionally harm: This sense of 'abuse' refers to causing harm or injury to someone, either physically or emotionally. For example, ""Her husband abused her physically and emotionally for years.""
+4. Use language or words improperly or offensively: This sense of 'abuse' refers to using language or words in a way that is offensive, hurtful, or inappropriate. For example, ""The comedian was criticized for abusing his audience with his crude jokes.""
+5. Take advantage of or exploit: This sense of 'abuse' refers to using someone or something for one's own benefit, often at the expense of the other party. For example, ""The company was accused of abusing its market dominance to stifle competition.""
+
+I hope these senses of 'abuse' in transitive clauses are helpful! Let me know if you have any other questions.</s>"
+1,allow,,monosemous
+2,approve,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'approve' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'approve' when it is found in a transitive clause:
+
+1. To endorse or support something or someone officially or formally, often after examining evidence or considering different options.
+
+Example sentence: The committee approved the proposal after careful consideration.
+
+2. To express agreement or satisfaction with something, often informally or tacitly.
+
+Example sentence: The teacher approved of the student's presentation, even though it was not perfect.
+
+3. To give permission or consent to something, often after evaluating the potential risks or benefits.
+
+Example sentence: The parent approved the teenager's request to attend the concert.
+
+4. To ratify or confirm something, often after a previous decision or action has been taken.
+
+Example sentence: The board of directors approved the changes to the company's policies.
+
+5. To show appreciation or satisfaction with someone's work or actions, often in a formal or official context.
+
+Example sentence: The boss approved of the employee's hard work and dedication.
+
+Note that these senses are not exhaustive, and the exact meaning of ""approve"" can vary depending on the context in which it is used. Additionally, some of these senses may overlap or have subtly different connotations, depending on the specific situation and the intended meaning of the speaker or writer.</s>"
+3,beat,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'beat' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb ""beat"" when it is found in a transitive clause:
+
+1. Defeat: This sense of ""beat"" refers to the act of winning a competition, battle, or conflict. Examples: ""The team beat their opponents in the championship game.""
+2. Overcome: This sense of ""beat"" refers to the act of successfully mastering or solving a difficulty or challenge. Examples: ""She beat the obstacle course with ease.""
+3. Outdo: This sense of ""beat"" refers to the act of surpassing or outperforming someone or something. Examples: ""He beat his personal best time in the marathon.""
+4. Subdue: This sense of ""beat"" refers to the act of bringing under control or overpowering someone or something. Examples: ""The police beat the rioters into submission.""
+5. Wear out: This sense of ""beat"" refers to the act of tiring someone or something out, often through repeated effort or activity. Examples: ""The long hike beat me down, but I made it to the end.""
+6. Exhaust: This sense of ""beat"" refers to the act of completely using up or depleting something, often through repeated use or activity. Examples: ""The rain beat down on the dry earth, exhausting the soil of its moisture.""
+7. Conquer: This sense of ""beat"" refers to the act of gaining victory over someone or something, often through military force or strength. Examples: ""The empire conquered the rebellious territories with ease.""
+
+I hope that helps! Let me know if you have any other questions.</s>"
+4,belt,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'belt' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb ""belt"" when it is found in a transitive clause:
+
+1. Fasten or secure a belt around one's waist: ""She belted her coat to prepare for the storm.""
+2. Use a belt as a weapon: ""The attacker belted his opponent with a heavy leather belt.""
+3. Win or achieve something, especially a championship or a record: ""The team belted their way to the top of the league.""
+4. Move quickly and powerfully, especially through air or water: ""The rocket belted through the atmosphere, reaching speeds of over Mach 5.""
+5. Spend lavishly or freely, especially on something that brings pleasure: ""He belted out thousands of dollars on a luxurious vacation.""
+
+I hope this helps! Let me know if you have any other questions.</s>"
+5,box,,monosemous
+6,break,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'break' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'break' when it is found in a transitive clause:
+
+1. shatter or smash something into pieces (e.g. ""She broke the vase"").
+2. cause something to stop functioning or malfunction (e.g. ""The computer broke down and we had to restart it"").
+3. interrupt or disrupt a process or activity (e.g. ""The meeting was broken up by the fire alarm"").
+4. separate or divide something into parts (e.g. ""She broke up the piece of candy into smaller pieces"").
+5. cause someone to stop doing something or to change their behavior (e.g. ""The news broke his spirit and he gave up the project"").
+6. cause someone to lose their concentration or focus (e.g. ""The noise broke my train of thought and I forgot what I was saying"").
+7. cause someone to experience a sudden change of mood or emotion (e.g. ""The shocking news broke her heart"").
+8. cause someone to become injured or experience pain (e.g. ""The fall broke his ankle"").
+
+There are eight distinct possible senses of the verb 'break' when it is found in a transitive clause, as listed above.</s>"
+7,build,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'build' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'build' when it is found in a transitive clause:
+
+1. construct or create something, such as a building, a machine, or a software program
+2. assemble or put together parts or components to form a larger whole
+3. establish or develop a system, organization, or structure
+4. enlarge or expand an existing structure or system
+5. strengthen or fortify an existing structure or system
+6. create or cultivate a relationship or connection between people or entities
+7. establish or solidify a reputation or reputation
+8. develop or enhance a skill or ability
+
+Note that some of these senses may overlap or have subtle shades of meaning, but they are all distinct possible senses of the verb 'build' in transitive clauses.</s>"
+8,burn,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'burn' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'burn' when it is found in a transitive clause:
+
+1. Consume or destroy by fire: ""The fire burned the wooden table to ashes.""
+2. Cause intense heat or pain: ""The hot sauce burned my tongue.""
+3. Use up or exhaust a resource: ""I've been burning the midnight oil to meet the deadline.""
+4. Cause a strong emotion or reaction: ""Her words burned with anger.""
+5. Char or mark with fire: ""The branding iron burned the cow's hide.""
+6. Cause a substance to undergo a chemical change by heat: ""The chemist burned the experiment to produce a new compound.""
+7. Use up or exhaust a substance by heat: ""The oven burned the roast to perfection.""
+
+Note that there may be other senses of the verb 'burn' depending on the context, but the above are some of the most common and distinct senses.</s>"
+9,button,,monosemous
+10,cast,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'cast' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'cast' when it is found in a transitive clause:
+
+1. To throw or project something, such as a line, a spell, or an object: ""She cast her fishing line into the water.""
+2. To assign a role or part to an actor or performer: ""He was cast as the lead in the play.""
+3. To predict or foretell something, often by means of a horoscope or fortune-telling: ""The astrologer cast the stars and predicted a successful future for the couple.""
+4. To place or mold something in a particular shape or form: ""The artist cast the bronze into a beautiful sculpture.""
+5. To vote or elect someone to a position or office: ""The people cast their ballots and elected a new president.""
+6. To redirect or reorient something, such as a ship or a boat: ""The captain cast the ship off course to avoid the storm.""
+7. To purify or refine something, such as metal or a liquid: ""The smith cast the molten metal into a pure form.""
+8. To select or choose something, such as a team or a side: ""The coach cast the players for the upcoming game.""
+
+I hope that helps! Let me know if you have any other questions.</s>"
+11,catch,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'catch' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'catch' when it is found in a transitive clause:
+
+1. seize or take hold of something physically: ""She caught the ball.""
+2. grasp or understand something intellectually: ""I finally caught on to the concept.""
+3. intercept or stop something in motion: ""He caught the thief.""
+4. trap or ensnare something or someone: ""The bird caught in the net.""
+5. record or capture something, such as an illness or a trend: ""The survey caught the public's mood.""
+6. experience or undergo something, such as an emotion or a situation: ""I caught a cold.""
+7. observe or notice something: ""She caught the look of surprise on his face.""
+8. attend or participate in something, such as an event or a performance: ""I caught the concert last night.""
+
+Note that some of these senses may have multiple sub-senses or nuances, depending on the context in which the verb is used.</s>"
+12,chip,,monosemous
+13,chop,,monosemous
+14,chuck,,monosemous
+15,clean,,monosemous
+16,clear,,monosemous
+17,coat,,monosemous
+18,cover,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'cover' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'cover' when it is found in a transitive clause:
+
+1. To place something on the surface of something else: ""She covered the table with a red cloth.""
+2. To conceal or hide something: ""He covered his tracks to avoid being caught.""
+3. To provide protection or shelter: ""The umbrella covered us from the rain.""
+4. To include or encompass something: ""The report covers all aspects of the project.""
+5. To perform or complete something successfully: ""She covered the song perfectly.""
+6. To be responsible for something: ""He is covering the shift tonight.""
+7. To transmit or broadcast something: ""The TV station covered the event live.""
+8. To pay for something: ""She covered the cost of the ticket with her credit card.""
+
+Note that some of these senses can be further categorized into sub-senses, and some senses may have more specific or formal equivalents in certain contexts. Additionally, the meanings of ""cover"" can differ depending on the context and the words it is paired with, so this list is not exhaustive but rather a general overview of common senses of the verb ""cover"" in transitive clauses.</s>"
+19,crash,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'crash' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'crash' when it is found in a transitive clause:
+
+1. Collide or come into violent contact with something: ""The car crashed into the tree.""
+2. Cause a computer system or network to fail or malfunction: ""The virus crashed my computer.""
+3. Bring down or cause the failure of a plane or other vehicle: ""The pilot had to crash-land the plane.""
+4. Experience a sudden and severe decline or setback: ""The company's stock crashed after the scandal was revealed.""
+5. Participate in a crash or impact, often as a result of careless or reckless behavior: ""The driver crashed the party by driving through the front gate.""
+6. Take a sudden and dramatic fall, often in a financial or social sense: ""The market crashed, and many investors lost their savings.""
+7. Sink or fall heavily, often in a figurative sense: ""The team's hopes crashed after they lost the championship game.""
+
+Note that some of these senses may be more common or idiomatic in certain contexts than others, and the specific meaning of ""crash"" in a given sentence will depend on the context and the intended meaning of the speaker or writer.</s>"
+20,draw,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'draw' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'draw' when it is found in a transitive clause:
+
+1. Create an image or design using a drawing tool or medium: ""She drew a picture of her cat.""
+2. Attract or pull something towards oneself: ""The magnet drew the metal object towards it.""
+3. Take or pull something out of a container or source: ""She drew water from the well.""
+4. Use a weapon or tool to fire or release a projectile: ""He drew his sword and charged at the enemy.""
+5. Create a plan or strategy: ""They drew up a blueprint for the new building.""
+6. Use a lottery or random selection to choose someone or something: ""The winner was drawn from a pool of applicants.""
+7. Have or experience a physical or emotional response: ""The movie drew tears from the audience.""
+8. Deduct or subtract something from a total or amount: ""The accountant drew up a budget for the project.""
+9. Bring or lead someone or something to a place: ""The guide drew the group through the forest.""
+10. Use a computer program or software to create or design something: ""She drew up a website for her business.""
+
+Note that some of these senses may be more common or acceptable than others, depending on the context and register of the language. Additionally, some senses may have multiple meanings or subtly different connotations, depending on the specific usage and context.</s>"
+21,drop,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'drop' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'drop' when it is found in a transitive clause:
+
+1. Release or let go of something or someone: ""She dropped the ball.""
+2. Place something or someone in a specific location: ""He dropped the package off at the store.""
+3. Decrease or lower something, such as prices or altitude: ""The company dropped the price of the product.""
+4. Stop doing something or being involved in a situation: ""They dropped out of the competition.""
+5. Use a bomb or other explosive device: ""The terrorist dropped a bomb in the market.""
+6. Release or express something, such as a feeling or a comment: ""She dropped a hint about her plans.""
+7. Place something or someone in a state of disrepair or neglect: ""The owner dropped the car off at the mechanic.""
+8. Drop something, such as a name or a subject, from a list or a conversation: ""She dropped the name of the celebrity from the list of potential guests.""
+9. Surrender or yield to someone or something: ""The army dropped their weapons and surrendered.""
+10. Decrease or fall in rank or status: ""The politician dropped in the polls after the scandal.""
+
+Note that some of these senses may have multiple sub-senses or nuances, depending on the context in which the verb is used.</s>"
+22,earn,,monosemous
+23,encounter,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'encounter' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'encounter' when it is found in a transitive clause:
+
+1. Meet or come across something or someone unexpectedly: ""I encountered a problem during the installation of the software.""
+2. Experience or undergo something, often unexpectedly: ""She encountered a severe allergic reaction after eating the food.""
+3. Face or deal with a difficult or challenging situation: ""The team encountered a tough opponent in the championship game.""
+4. Discover or uncover something unexpectedly: ""The detective encountered a hidden compartment in the suspect's home.""
+5. Interact with someone, often in a casual or brief manner: ""I encountered a friendly stranger during my travels.""
+6. Physically collide with something or someone: ""The car encountered a tree during the accident.""
+7. Experience or undergo something for the first time: ""He encountered a new emotion when he fell in love for the first time.""
+8. Meet or confront someone, often in a hostile or confrontational manner: ""The two armies encountered each other on the battlefield.""
+
+There are eight distinct possible senses of the verb 'encounter' when it is found in a transitive clause, ranging from physical collisions to unexpected experiences and interactions.</s>"
+24,fetch,,monosemous
+25,fight,,monosemous
+26,fire,,monosemous
+27,fold,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'fold' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'fold' when it is found in a transitive clause:
+
+1. To bend or curl something into a fold: ""She folded the cloth into a neat square.""
+2. To wrap or coil something around something else: ""He folded the wire around the cord.""
+3. To place something inside a fold or crease: ""She folded the letter into the envelope.""
+4. To combine or integrate something into a larger whole: ""The company folded the two departments into one.""
+5. To make something fit by folding or bending: ""He had to fold the rug to fit it into the car.""
+
+Note that there may be other possible senses of the verb 'fold' depending on the context and the specific words and phrases used with it. These are the most common senses of the verb in transitive clauses.</s>"
+28,grab,,monosemous
+29,hack,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'hack' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'hack' when it is found in a transitive clause:
+
+1. To manipulate or modify (something) in an unauthorized or unethical manner, especially using digital technology:
+	* Example sentence: ""The hacker penetrated the company's security system and stole sensitive data.""
+2. To gain unauthorized access to (a computer system, network, or account):
+	* Example sentence: ""The cybercriminal hacked into the government's database and stole classified information.""
+3. To explore or experiment with (a system, software, or idea) in an unauthorized or unconventional manner:
+	* Example sentence: ""The teenager hacked together a website using code he found online.""
+4. To solve a problem or challenge in an innovative or creative way:
+	* Example sentence: ""The team hacked together a solution to the software bug using a combination of existing tools.""
+5. To cobble together or assemble (something) in a quick or makeshift manner:
+	* Example sentence: ""The mechanic hacked together a temporary fix for the car's engine.""
+
+Note that some of these senses of ""hack"" can be used in a more or less formal context, depending on the context and audience. Additionally, some senses of ""hack"" can be used as intransitive verbs as well, such as ""to hack into something"" or ""to hack away at something"".</s>"
+30,hit,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'hit' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'hit' when it is found in a transitive clause:
+
+1. Strike or collide with something: This sense of 'hit' is the most common and basic meaning, and it can be used in a variety of contexts, such as ""The car hit the tree.""
+2. Reach or achieve something: In this sense, 'hit' is often used to describe achieving a goal or target, as in ""The company hit a new sales record.""
+3. Get a hit: This sense of 'hit' is often used in the context of sports or entertainment, and it refers to getting a successful result or score, as in ""The batter got a hit in the bottom of the ninth inning.""
+4. Attack or assault someone: In this sense, 'hit' is often used to describe physical violence or aggression, as in ""The mugger hit the victim with a baseball bat.""
+5. Be popular or successful: This sense of 'hit' is often used to describe something that is particularly well-liked or successful, as in ""The new song is a hit with the fans.""
+6. Have an effect or impact: In this sense, 'hit' is often used to describe something that has a significant effect or influence on something else, as in ""The new policy hit the company's profits hard.""
+7. Be on target or spot on: This sense of 'hit' is often used to describe something that is accurate or precise, as in ""The archer hit the bullseye with her arrow.""
+
+I hope that helps! Let me know if you have any other questions.</s>"
+31,insult,,monosemous
+32,kick,,monosemous
+33,kill,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'kill' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'kill' when it is found in a transitive clause:
+
+1. Cause the death of: This is the most common sense of the verb 'kill', and it refers to the act of intentionally ending someone's life.
+
+Example sentence: ""The assassin killed the king.""
+
+2. End or terminate: This sense of 'kill' can also be used metaphorically to describe the end of something, such as a project or a relationship.
+
+Example sentence: ""The company killed the project due to lack of funding.""
+
+3. Remove or eliminate: This sense of 'kill' can refer to the act of getting rid of something or someone that is considered unnecessary or harmful.
+
+Example sentence: ""The new policy killed the bug that was causing the software to crash.""
+
+4. Defeat or conquer: This sense of 'kill' can be used to describe the act of defeating an opponent or overcoming an obstacle.
+
+Example sentence: ""The team killed their rival in the championship game.""
+
+5. Suppress or subdue: This sense of 'kill' can refer to the act of suppressing or subduing a feeling, emotion, or impulse.
+
+Example sentence: ""She had to kill her desire to eat junk food in order to lose weight.""
+
+6. Make ineffective or useless: This sense of 'kill' can refer to the act of rendering something ineffective or useless.
+
+Example sentence: ""The new update killed the app's functionality.""
+
+7. Destroy or damage: This sense of 'kill' can refer to the act of destroying or damaging something physically or metaphorically.
+
+Example sentence: ""The storm killed the crops.""
+
+8. Stop or halt: This sense of 'kill' can refer to the act of stopping or halting something, such as a process or a project.
+
+Example sentence: ""The company killed the project due to lack of funding.""
+
+These are the distinct possible senses of the verb 'kill' when it is found in a transitive clause.</s>"
+34,know,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'know' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'know' when it is found in a transitive clause:
+
+1. be aware of something, have knowledge of something
+
+Example sentence: She knows the answer to the question.
+
+2. recognize someone or something
+
+Example sentence: I know him from school.
+
+3. be familiar with someone or something
+
+Example sentence: She knows all the students in her class.
+
+4. understand something
+
+Example sentence: I know how to speak French.
+
+5. perceive something
+
+Example sentence: She knows the smell of freshly baked cookies.
+
+6. be knowledgeable about something
+
+Example sentence: He knows a lot about history.
+
+7. have a personal relationship with someone
+
+Example sentence: I know my family and friends well.
+
+8. have experience with something
+
+Example sentence: She knows how to ride a bike.
+
+Note that some of these senses can be subtly different, but they all capture the idea of knowing something or someone in a particular way.</s>"
+35,launch,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'launch' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'launch' when it is found in a transitive clause:
+
+1. To initiate or begin something, such as a project, a product, or an event.
+2. To set in motion or put into action, as in ""launch a new marketing campaign"" or ""launch a new product line.""
+3. To introduce or release a new product, service, or idea to the market.
+4. To begin a new phase or stage of something, such as a new project or a new phase of a product's life cycle.
+5. To put something into orbit or send it flying, as in ""launch a rocket into space"" or ""launch a drone.""
+6. To publicly introduce or showcase something, such as a new product or a new service, in order to attract attention and generate interest.
+7. To start or begin something with great energy or enthusiasm, as in ""launch a new business venture"" or ""launch a new marketing campaign with a bang.""
+8. To initiate a process or action that will have a significant impact or outcome, such as launching a new legal case or launching a new product that will change the market.
+
+I hope that helps! Let me know if you have any other questions.</s>"
+36,mail,,monosemous
+37,meet,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'meet' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'meet' when it is found in a transitive clause:
+
+1. encounter: This sense of ""meet"" implies a physical or virtual encounter between two or more individuals, groups, or entities. For example: ""I will meet you at the conference today.""
+2. join or come together: This sense of ""meet"" suggests a coming together of people, objects, or ideas, often with the intention of collaborating or sharing information. For example: ""Let's meet at the park to discuss the project.""
+3. fulfill or satisfy: This sense of ""meet"" implies that one entity or condition is adequate or sufficient to address the needs or expectations of another. For example: ""This recipe meets all my dietary requirements.""
+4. accomplish or complete: This sense of ""meet"" suggests that one entity or condition is sufficient to accomplish or complete a task or objective. For example: ""I met my deadline and finished the project on time.""
+5. correspond or be equivalent: This sense of ""meet"" implies that two or more entities, conditions, or standards are similar or identical in some way. For example: ""The new policy meets the requirements of the law.""
+
+I hope this helps! Let me know if you have any further questions.</s>"
+38,murder,,monosemous
+39,pass,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'pass' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'pass' when it is found in a transitive clause:
+
+1. transmit, convey, or hand over (as in ""pass the message to John"")
+2. go past or over (as in ""the car passed us on the highway"")
+3. be transferred or assigned (as in ""her responsibilities were passed to her colleague"")
+4. be successful or approved (as in ""the bill passed in the Senate"")
+5. be spent or elapse (as in ""the day passed quickly"")
+6. be over or completed (as in ""the deadline passed yesterday"")
+7. be transmitted or handed down (as in ""the tradition passed down from generation to generation"")
+8. be left behind or forgotten (as in ""the old ways passed into history"")
+9. be changed or exchanged (as in ""the law was passed to protect the environment"")
+10. be surrendered or given up (as in ""the prisoners passed their weapons to the authorities"")
+
+Please note that some of these senses may overlap or have subtle shades of meaning, depending on the context in which the verb is used.</s>"
+40,phone,,monosemous
+41,pinch,,monosemous
+42,pitch,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'pitch' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'pitch' when it is found in a transitive clause:
+
+1. To propose or suggest an idea or plan to someone: ""She pitched her business idea to the investors.""
+2. To set or adjust the tone of a voice or instrument: ""He pitched his voice to sound more confident.""
+3. To place or position something in a particular location or angle: ""She pitched the tent in the shade.""
+4. To throw or hurl something, often with a particular aim or force: ""He pitched the ball to his teammate.""
+5. To cause something to slope or tilt, often used in reference to a surface or object: ""The workers pitched the ground to create a level surface.""
+6. To describe the inclination or slope of a surface or object: ""The pitch of the roof was too steep for her to climb.""
+7. To compete or contend against someone or something, often used in a sports context: ""The team pitched against their rivals in the championship game.""
+8. To sell or offer something, often used in a business or commercial context: ""The company pitched their new product to potential customers.""
+
+Note that some of these senses may be more common or idiomatic than others, and some may have subtly different connotations or nuances depending on the context in which the verb is used.</s>"
+43,place,,monosemous
+44,post,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'post' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'post' when it is found in a transitive clause:
+
+1. To place or position something on a post or in a public location: ""She posted the flyers around the neighborhood.""
+2. To send or transmit something online, especially through a social media platform or message board: ""I posted my latest article on Medium.""
+3. To schedule or make arrangements for something to be published or broadcast at a specific time: ""The company posted the new policy on their website.""
+4. To assign or delegate a task or responsibility to someone: ""The manager posted the project to her team.""
+5. To place or list something for sale or auction: ""The seller posted the item on eBay.""
+6. To upload or make available content, such as a video or image, on the internet: ""She posted her vacation photos on Instagram.""
+7. To place or fix something in a particular location or position, especially in a permanent or conspicuous way: ""The artist posted the sculpture in the park.""
+8. To send or transmit something through the mail or a delivery service: ""I posted the package to my friend.""
+
+I hope that helps! Let me know if you have any other questions.</s>"
+45,push,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'push' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'push' when it is found in a transitive clause:
+
+1. To apply force to something to move it or keep it moving, often in a specific direction or with a specific outcome in mind. Examples: ""She pushed the cart down the aisle,"" ""He pushed the car over the cliff.""
+2. To promote or advance something, such as an idea, a project, or a person's career. Examples: ""They pushed for the bill to pass,"" ""She pushed for a raise.""
+3. To urge or encourage someone to do something, often with a sense of persuasion or motivation. Examples: ""She pushed him to take the job offer,"" ""He pushed her to pursue her dreams.""
+4. To introduce or present something, such as a product, service, or idea, to an audience or market. Examples: ""The company pushed their new product at the trade show,"" ""The singer pushed her latest single on social media.""
+5. To influence or have an impact on someone or something, often in a subtle or indirect way. Examples: ""The new policy has pushed the company in a new direction,"" ""The teacher's words pushed the student to think more deeply about the subject.""
+
+I hope that helps! Let me know if you have any other questions.</s>"
+46,reach,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'reach' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'reach' when it is found in a transitive clause:
+
+1. To extend one's arm or a body part to touch or grasp something: ""She reached out to hug her friend.""
+2. To arrive at a place or a destination: ""I finally reached the top of the mountain.""
+3. To achieve or attain something: ""She reached her goal of running a marathon.""
+4. To communicate with someone or something: ""I reached out to the company for assistance.""
+5. To influence or affect something or someone: ""The new policy reached farmers in rural areas.""
+6. To exceed or surpass something: ""The new record reached a new high score.""
+7. To cover or touch something: ""The blanket reached the floor.""
+8. To be sufficient or adequate for something: ""The budget reached the minimum requirements.""
+
+Note that some of these senses may have subtly different connotations or nuances, depending on the context in which the verb is used.</s>"
+47,recall,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'recall' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'recall' when it is found in a transitive clause:
+
+1. To remember or call to mind clearly and vividly: ""She recalled the details of the meeting.""
+2. To bring back or regain consciousness of something that was previously known or experienced: ""He had forgotten the password, but then he recalled it.""
+3. To restore or revive a memory or a past experience: ""The smell of her mother's cooking recalls memories of childhood.""
+4. To repeal or rescind a law or a decision: ""The government has recalled the controversial legislation.""
+5. To summon or call back something or someone: ""The company recalled all of its employees from the field trip.""
+
+Note that some of these senses can be used in different contexts or have slightly different connotations, but these are the main distinct possible senses of the verb 'recall' in a transitive clause.</s>"
+48,remove,,monosemous
+49,roll,,monosemous
+50,sack,,monosemous
+51,save,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'save' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'save' when it is found in a transitive clause:
+
+1. Store or keep something safely: ""She saved the file on her computer.""
+2. Prevent harm or injury from happening: ""The firefighters saved the house from burning down.""
+3. Spend or use money wisely: ""I saved up for a new car.""
+4. Preserve or keep something unchanged: ""The company plans to save the historic building.""
+5. Rescue or deliver someone from a difficult situation: ""The lifeguard saved the swimmer from drowning.""
+6. Record or store data or information: ""The program saved the document to the cloud.""
+7. Use something for a specific purpose: ""I saved the tickets for the concert.""
+8. Set aside or allocate funds for a particular purpose: ""The government saved money for a rainy day.""
+9. Prevent or avoid wasting something: ""The company saved resources by implementing new technologies.""
+10. Make something last longer or be more durable: ""They saved the old furniture by restoring it.""
+
+Note that some of these senses may overlap or have subtle differences in their usage, but they are all distinct possible meanings of the verb ""save"" in a transitive clause.</s>"
+52,see,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'see' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'see' when it is found in a transitive clause:
+
+1. perceive with the eyes: ""I saw the sunset last night.""
+2. understand or comprehend: ""I see what you're saying.""
+3. watch or observe: ""I'll see you at the concert tonight.""
+4. experience or encounter: ""I saw a ghost in the hallway.""
+5. notice or be aware of: ""I see that you're missing a sock.""
+6. attend or witness: ""I saw the play last night.""
+
+Note that some of these senses can be nuanced or have multiple meanings depending on the context, but these are the most common and distinct senses of the verb 'see' in transitive clauses.</s>"
+53,sense,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'sense' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'sense' when it is found in a transitive clause:
+
+1. perceive (e.g. ""I sense that something is wrong"")
+2. understand (e.g. ""I sense the meaning of this poem"")
+3. feel (e.g. ""I sense a sense of unease in the air"")
+4. detect (e.g. ""I sense a faint smell of smoke"")
+5. appreciate (e.g. ""I sense the beauty of this sunset"")
+6. discern (e.g. ""I sense a subtle difference in the flavors"")
+7. recognize (e.g. ""I sense a familiar face in the crowd"")
+8. identify (e.g. ""I sense a new trend in fashion"")
+9. interpret (e.g. ""I sense a deeper meaning in the lyrics"")
+10. evaluate (e.g. ""I sense that this wine is of high quality"").
+
+Note that some of these senses may be more common or acceptable than others, depending on the context and the intended meaning of the sentence.</s>"
+54,set,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'set' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'set' when it is found in a transitive clause:
+
+1. Place or locate something: ""Set the book on the table."" (physical placement)
+2. Establish or fix something: ""Set the price at $10."" (financial or social establishment)
+3. Appoint or assign something: ""Set the meeting for 2pm."" (scheduling)
+4. Put something into motion or activate it: ""Set the machine in motion."" (starting or activating)
+5. Determine or decide something: ""Set the agenda for the meeting."" (deciding or determining)
+6. Create or establish a situation or condition: ""Set the stage for the performance."" (preparing or creating a setting)
+7. Apply or apply something to something else: ""Set the paint on the wall."" (applying a substance)
+8. Configure or customize something: ""Set up the computer for the user."" (configuring or customizing)
+9. Test or evaluate something: ""Set the test for next week."" (testing or evaluating)
+10. Assign a task or duty to someone: ""Set the employee to work on the project."" (assigning a task or duty)
+
+Note that some verbs may have more senses than others, depending on the context and usage.</s>"
+55,shape,,monosemous
+56,shoot,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'shoot' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'shoot' when it is found in a transitive clause:
+
+1. Fire a weapon: This is the most common sense of the verb 'shoot', and it refers to the act of discharging a weapon, such as a gun or a bow, to launch a projectile or a bullet towards a target.
+
+Example sentence: She shot the deer with her bow.
+
+2. Record or capture: This sense of 'shoot' refers to the act of recording or capturing an image or video using a camera or other recording device.
+
+Example sentence: They shot a music video for their new single.
+
+3. Publish or release: This sense of 'shoot' refers to the act of publishing or releasing something, such as a book, a movie, or a piece of music.
+
+Example sentence: They shot their debut album last summer.
+
+4. Criticize or disparage: This sense of 'shoot' is less common, but it refers to the act of criticizing or disparaging someone or something.
+
+Example sentence: The critic shot down the new play, saying it was shallow and predictable.
+
+5. Miss or fail to hit: This sense of 'shoot' refers to the act of missing or failing to hit a target, often used in a competitive or athletic context.
+
+Example sentence: He shot an 80 on the golf course, missing several putts.
+
+6. Experience or undergo: This sense of 'shoot' is less common, but it refers to the act of experiencing or undergoing something, often used in a context of sudden or unexpected change.
+
+Example sentence: The company's stock prices shot up after the announcement of their new product.
+
+7. Move rapidly: This sense of 'shoot' refers to the act of moving rapidly or suddenly, often used in a context of surprise or urgency.
+
+Example sentence: The car shot across the intersection just as the light turned red.
+
+8. Be excited or eager: This sense of 'shoot' is less common, but it refers to the act of being excited or eager for something, often used in a context of anticipation or expectancy.
+
+Example sentence: She shot up with excitement when she heard the news.
+
+9. Exchange or"
+57,shove,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'shove' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'shove' when it is found in a transitive clause:
+
+1. To forcefully push or move something or someone into a place or position: ""She shoved the books onto the shelf.""
+2. To crowd or squeeze someone into a small space: ""The crowd shoved and pushed to get a better view.""
+3. To compel or coerce someone to do something: ""The boss shoved the deadline up to the next day.""
+4. To thrust or insert something into a place or position: ""He shoved the key into the lock.""
+5. To drive or force someone to do something: ""The teacher shoved the students to study hard.""
+
+Note that some of these senses may be more common or idiomatic than others, and the specific sense of 'shove' used in a given context may depend on the context and the intended meaning of the speaker or writer.</s>"
+58,slap,,monosemous
+59,stab,,monosemous
+60,stretch,,monosemous
+61,toss,,monosemous
+62,understand,,"<s> [INST] <<SYS>>
+    
+    <</SYS>>
+    Describe and enumerate the distinct possible senses of the verb 'understand' when it is found in a transitive clause. 
+Feel free to give only one sense if it only has one possible meaning. 
+For example, if you were given the verb ""administrate"", you should respond with ""manage"" because ""administrate"" has one transitive sense. 
+For another example, if you were given the verb ""abandon”, you should respond with “1. leave behind; 2. exchange; 3. surrender, give over” since ""abandon"" has three transitive senses. 
+For another example, the verb ""jump"" has five senses because it has multiple possible meanings when it is used, so you should output something like ""1. stock prices, increase, 2. be excited for an opportunity, getting there first, 3. physically or metaphorically leap, physical motion, 4. to escape, bail out, 5. attack, gangsta style"". [/INST]
+    
+    Sure! Here are the distinct possible senses of the verb 'understand' when it is found in a transitive clause:
+
+1. Comprehend the meaning of something: This sense of ""understand"" is the most common and basic sense, and it involves grasping the meaning or significance of something. For example: ""I understand the instructions.""
+2. Emotionally grasp or relate to something: This sense of ""understand"" involves empathizing or relating to someone or something on an emotional level. For example: ""I understand how you feel.""
+3. To become clear or evident: In this sense, ""understand"" is used to describe the process of something becoming clear or obvious. For example: ""The truth will soon understand.""
+4. To interpret or explain something: This sense of ""understand"" involves making sense of something by interpreting or explaining it. For example: ""The teacher understands the passage to the students.""
+5. To have a deep understanding of something: This sense of ""understand"" involves having a profound or intuitive understanding of something, beyond just comprehending the surface-level meaning. For example: ""He understands the game on a deep level.""
+
+I hope that helps!</s>"
+63,write,,monosemous

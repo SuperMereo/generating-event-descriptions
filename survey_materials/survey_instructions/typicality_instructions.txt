@@ -1,0 +1,40 @@
+Instructions:
+
+Instructions
+
+In this survey, you will be presented with 100 situations and asked to judge how typical each one is using a scale ranging from very typical to very atypical. A typical situation is one in which individuals and their actions follow our normal expectations. For example, consider the following cooking situations:
+
+Example Situations:
+
+1. The chef cooked the meal.
+2. The waitress cooked the salad.
+3. The alien cooked the pencil.
+
+Example 1 ("The chef cooked the meal") is a typical situation, since chefs typically cook and cooking typically concludes in a meal. Therefore, we would consider this to be very typical.
+Example 2 ("The waitress cooked the salad") is less typical. Cooking, salads, and waitresses are all vaguely related as they belong to the food industry.  However, waitresses typically serve food instead of cooking it and salads are are not cooked, leading us to consider this situation to be less typical than Example 1.
+Example 3 ("The alien cooked the pencil") is the least typical of the three, since aliens are not typically associated with cooking and pencils are not things that are typically cooked. Therefore, we would consider this to be very atypical.
+
+Does this make sense?
+
+Practice question 1:
+
+First, let's practice!
+How typical is the following situation?
+"The athlete ran."
+The sentence may sound weird, but please judge it as it is written.
+
+Practice question 2:
+
+Great job!  "The athlete ran" is a very typical situation, because athletes often run in their sports.
+Let's practice some more!
+How typical is the following situation?
+"The baby ran."
+Some of the sentences may sound weird, but please judge them as they are written.
+
+Practice question 3:
+
+Great job!  "The baby ran" is NOT a very typical situation, because babies cannot usually run.
+Last practice question!
+How typical is the following situation?
+"The bottle ran."
+The sentence may sound weird, but please judge it as it is written.

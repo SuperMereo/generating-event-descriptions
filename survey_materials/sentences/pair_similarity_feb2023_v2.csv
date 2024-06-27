@@ -1,0 +1,63 @@
+sentence_pair_label,Nat_Typ_Sentence,sentence2,verb,sentence2_label,total_senses,trans_senses,trans_sense_defs,trans_levin_classes,pair,label,shared_levin_classes
+arrange1,The baby arranged the blocks.,The florist arranged the flowers.,arrange,same,1,1,arrange.01: build;,"build,establish,put",build-shape,FILLER,build
+arrange2,The baby arranged the blocks.,The secretary arranged the meeting.,arrange,different,1,1,arrange.01: build;,"build,establish,put",build-shape,FILLER,build
+bounce1,The player bounced the ball.,The mom bounced the toddler.,bounce,same,1,1,"bounce.01: boing boing boing,;","roll,run,slide",drop-roll,FILLER,roll
+bounce2,The player bounced the ball.,The bank bounced the check.,bounce,different,1,1,"bounce.01: boing boing boing,;","roll,run,slide",drop-roll,FILLER,roll
+bump1,The car bumped the curb.,The chair bumped the desk.,bump,same,2,2,bump.01: hit gently; bump.02: move slightly;,"bump,hit",beat-slap,FILLER,hit
+bump2,The car bumped the curb.,The schedule bumped the meeting.,bump,different,2,2,bump.01: hit gently; bump.02: move slightly;,"bump,hit",beat-slap,FILLER,hit
+butcher1,The farmer butchered the goat.,The hunter butchered the prey.,butcher,same,1,1,butcher.01: cut up meat for sale;,"captain,murder",kill-murder,FILLER,murder
+butcher2,The farmer butchered the goat.,The consultant butchered the project.,butcher,different,1,1,butcher.01: cut up meat for sale;,"captain,murder",kill-murder,FILLER,murder
+carry1,The assistant carried the purse.,The truck carried the goods.,carry,same,1,1,"carry.01: bring with, have;","carry,cost,fit",push-shove,FILLER,carry
+carry2,The assistant carried the purse.,The actor carried the performance.,carry,different,1,1,"carry.01: bring with, have;","carry,cost,fit",push-shove,FILLER,carry
+clip1,The gardener clipped the hedge.,The stylist clipped the ponytail.,clip,same,2,2,"clip.01: to cut, cut off, or cut out; clip.03: hit very slightly on the edge;","braid,cut",belt-button,FILLER,tape
+clip2,The gardener clipped the hedge.,The editor clipped the movie.,clip,different,2,2,"clip.01: to cut, cut off, or cut out; clip.03: hit very slightly on the edge;","braid,cut",belt-button,FILLER,tape
+deliver1,The mailman delivered the package.,The visitor delivered the gift.,deliver,same,2,2,"deliver.01: give, send; deliver.101: give birth, assist in giving birth, giving birth or assisting in giving birth;","birth,send",post-mail,FILLER,send
+deliver2,The mailman delivered the package.,The midwife delivered the baby.,deliver,different,2,2,"deliver.01: give, send; deliver.101: give birth, assist in giving birth, giving birth or assisting in giving birth;","birth,send",post-mail,FILLER,send
+design1,The architect designed the building.,The artist designed the exhibit.,design,same,1,1,design.01: design;,create,draw-write,FILLER,create
+design2,The architect designed the building.,The strategist designed the message.,design,different,1,1,design.01: design;,create,draw-write,FILLER,create
+discharge1,The hospital discharged the patient.,The army discharged the soldier.,discharge,same,2,2,"discharge.01: remove supply, as with electricity; discharge.101: to release, release from a location (not stuff being released itself);","banish,remove",recall-remove,FILLER,banish
+discharge2,The hospital discharged the patient.,The bank discharged the loan.,discharge,different,2,2,"discharge.01: remove supply, as with electricity; discharge.101: to release, release from a location (not stuff being released itself);","banish,remove",recall-remove,FILLER,banish
+discover1,The scientist discovered the cure.,The explorer discovered the island.,discover,same,1,1,discover.01: find (out);,"conjecture,discover,sight",meet-encounter,FILLER,encounter
+discover2,The scientist discovered the cure.,The wife discovered the affair.,discover,different,1,1,discover.01: find (out);,"conjecture,discover,sight",meet-encounter,FILLER,encounter
+dismiss1,The company dismissed the worker.,The teacher dismissed the class.,dismiss,same,2,2,"dismiss.01: remove, release; dismiss.02: label contemptuously;","fire,reject,remove",fire-sack,FILLER,fire
+dismiss2,The company dismissed the worker.,The judge dismissed the lawsuit.,dismiss,different,2,2,"dismiss.01: remove, release; dismiss.02: label contemptuously;","fire,reject,remove",fire-sack,FILLER,fire
+drain1,The housekeeper drained the tub.,The cook drained the pasta.,drain,same,1,1,"drain.01: unfill, empty;","best_guess,clear,other_cos",clear-clean,FILLER,"clear,other_cos"
+drain2,The housekeeper drained the tub.,The work drained the student.,drain,different,1,1,"drain.01: unfill, empty;","best_guess,clear,other_cos",clear-clean,FILLER,"clear,other_cos"
+drive1,The chauffeur drove the limo.,The babysitter drove the kids.,drive,same,2,2,"drive.01: drive or be driven around in a vehicle; drive.02: cause to move or become, impelled, inspired;","drive,nonvehicle",cast-launch,FILLER,throw
+drive2,The chauffeur drove the limo.,The advertisement drove the demand.,drive,different,2,2,"drive.01: drive or be driven around in a vehicle; drive.02: cause to move or become, impelled, inspired;","drive,nonvehicle",cast-launch,FILLER,throw
+find1,The bee found the flower.,The intruder found the key.,find,same,2,2,find.01: discovery; find.02: adjudge;,"declare,discover,get",reach-phone,FILLER,get
+find2,The bee found the flower.,The court found the liability.,find,different,2,2,find.01: discovery; find.02: adjudge;,"declare,discover,get",reach-phone,FILLER,get
+line1,The tailor lined the coat.,The insulation lined the attic.,line,same,2,2,"line.01: provide a lining, accompany in line-like fashion; line.03: puts lines on;","contiguous_location,fill",cover-coat,FILLER,fill
+line2,The tailor lined the coat.,The scribbles lined the notebook.,line,different,2,2,"line.01: provide a lining, accompany in line-like fashion; line.03: puts lines on;","contiguous_location,fill",cover-coat,FILLER,fill
+mock1,The comedian mocked the politician.,The classmates mocked the acne.,mock,same,1,1,mock.01: make fun of;,judgment,abuse-insult,FILLER,judgment
+mock2,The comedian mocked the politician.,The plastic mocked the marble.,mock,different,1,1,mock.01: make fun of;,judgment,abuse-insult,FILLER,judgment
+mount1,The rider mounted the horse.,The cyclist mounted the bike.,mount,same,3,2,"mount.01: intentional climber; mount.03: erect, construct;","establish,put",set-place,FILLER,put
+mount2,The rider mounted the horse.,The opponent mounted the defense.,mount,different,3,2,"mount.01: intentional climber; mount.03: erect, construct;","establish,put",set-place,FILLER,put
+notice1,The stylist noticed the wrinkle.,The inspector noticed the footprints.,notice,same,1,1,notice.01: become aware of;,see,see-sense,FILLER,see
+notice2,The stylist noticed the wrinkle.,The accountant noticed the fraud.,notice,different,1,1,notice.01: become aware of;,see,see-sense,FILLER,see
+order1,The diner ordered the wine.,The shopper ordered the shoes.,order,same,2,2,order.01: impelled action; order.02: request to be delivered;,"get,order",catch-fetch,FILLER,get
+order2,The diner ordered the wine.,The general ordered the invasion.,order,different,2,2,order.01: impelled action; order.02: request to be delivered;,"get,order",catch-fetch,FILLER,get
+permit1,The college permitted the event.,The dad permitted the misbehavior.,permit,same,1,1,"permit.01: permit, let, allow;","admit,allow",allow-approve,FILLER,allow
+permit2,The college permitted the event.,The weather permitted the picnic.,permit,different,1,1,"permit.01: permit, let, allow;","admit,allow",allow-approve,FILLER,allow
+poison1,The assassin poisoned the prince.,The berry poisoned the forager.,poison,same,2,2,"poison.01: kill via poison, kill or make sick via poison; poison.02: put poison on/in something;","butter,poison",shoot-stab,FILLER,poison
+poison2,The assassin poisoned the prince.,The insult poisoned the relationship.,poison,different,2,2,"poison.01: kill via poison, kill or make sick via poison; poison.02: put poison on/in something;","butter,poison",shoot-stab,FILLER,poison
+recognize1,The botanist recognized the mushroom.,The doctor recognized the symptom.,recognize,same,2,2,recognize.01: applaud/give accolades to; recognize.02: acknowledge as true/familiar;,"comprehend,conjecture,consider,sight",know-understand,FILLER,comprehend
+recognize2,The botanist recognized the mushroom.,The king recognized the bravery.,recognize,different,2,2,recognize.01: applaud/give accolades to; recognize.02: acknowledge as true/familiar;,"comprehend,conjecture,consider,sight",know-understand,FILLER,comprehend
+scratch1,The dog scratched the itch.,The patient scratched the rash.,scratch,same,2,2,"scratch.02: cut shallowly, rake the surface sharply; scratch.04: search;","cut,hurt,rummage,swat,wipe_manner",hack-chop,FILLER,cut
+scratch2,The dog scratched the itch.,The movers scratched the paint.,scratch,different,2,2,"scratch.02: cut shallowly, rake the surface sharply; scratch.04: search;","cut,hurt,rummage,swat,wipe_manner",hack-chop,FILLER,cut
+secure1,The guards secured the location.,The lock secured the safe.,secure,same,2,2,"secure.01: get; secure.02: make secure, literally or figuratively;","ensure,get,shake",save-earn,FILLER,get
+secure2,The guards secured the location.,The applicant secured the funding.,secure,different,2,2,"secure.01: get; secure.02: make secure, literally or figuratively;","ensure,get,shake",save-earn,FILLER,get
+shrink1,The washer shrunk the laundry.,The sun shrunk the leaves.,shrink,same,1,1,shrink.01: become or make smaller;,"flinch,other_cos",fold-stretch,FILLER,bend
+shrink2,The washer shrunk the laundry.,The failure shrunk the ego.,shrink,different,1,1,shrink.01: become or make smaller;,"flinch,other_cos",fold-stretch,FILLER,bend
+slam1,The child slammed the door.,The lawyer slammed the table.,slam,same,2,2,slam.01: throw violently; slam.02: hit hard;,"bump,spank,throw",pitch-chuck,FILLER,throw
+slam2,The child slammed the door.,The congressman slammed the critic.,slam,different,2,2,slam.01: throw violently; slam.02: hit hard;,"bump,spank,throw",pitch-chuck,FILLER,throw
+smash1,The cook smashed the potatoes.,The shoe smashed the bug.,smash,same,2,1,smash.01: break violently;,"break,carve,hit,throw",hit-kick,FILLER,"throw,hit"
+smash2,The cook smashed the potatoes.,The startup smashed the competition.,smash,different,2,1,smash.01: break violently;,"break,carve,hit,throw",hit-kick,FILLER,"throw,hit"
+split1,The couple split the check.,The friends split the pizza.,split,same,2,2,"split.01: divide, separate; split.02: leave, depart;","break,hurt,leave,split,tingle",crash-chip,FILLER,break
+split2,The couple split the check.,The lumberjack split the log.,split,different,2,2,"split.01: divide, separate; split.02: leave, depart;","break,hurt,leave,split,tingle",crash-chip,FILLER,break
+steal1,The thief stole the painting.,The colonizer stole the land.,steal,same,1,1,steal.01: to commit theft;,"get,steal",pinch-grab,FILLER,steal
+steal2,The thief stole the painting.,The dancer stole the show.,steal,different,1,1,steal.01: to commit theft;,"get,steal",pinch-grab,FILLER,steal
+tear1,The kid tore the paper.,The nail tore the fabric.,tear,same,3,2,"tear.01: to pull apart, separate forcefully; tear.02: to rush, move hurriedly, rushing;","break,hurt,run,split",break-burn,FILLER,hurt
+tear2,The kid tore the paper.,The poem tore the heartstrings.,tear,different,3,2,"tear.01: to pull apart, separate forcefully; tear.02: to rush, move hurriedly, rushing;","break,hurt,run,split",break-burn,FILLER,hurt
+throw1,The athlete threw the javelin.,The referee threw the flag.,throw,same,2,2,"throw.01: throw, sending through the air, manually, projection of an object through space; throw.03: hold;","conduct,throw",pass-toss,FILLER,throw
+throw2,The athlete threw the javelin.,The team threw the match.,throw,different,2,2,"throw.01: throw, sending through the air, manually, projection of an object through space; throw.03: hold;","conduct,throw",pass-toss,FILLER,throw

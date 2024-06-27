@@ -1,0 +1,42 @@
+Instructions:
+
+Instructions
+
+In this survey, you will be presented with 100 sentences and asked to judge how natural each one is using a scale ranging from extremely unnatural to perfectly natural. A natural sentence is something that a native speaker of English would naturally and fluently say, following the implicit structural rules of English. For example, consider the following sentences using "sleep":
+
+Example Sentences:
+
+1. The baby seems sleep to be.
+2. The baby seems to be sleeping.
+3. The toothbrush seems to be sleeping.
+
+Example 1 ("The baby seems sleeping to be") is an unnatural sentence, since "sleep to be" does not follow the structural rules of English.
+
+Example 2 ("The baby seems to be sleeping") is perfectly natural: it makes sense and follows all the structural rules of English.
+
+Example 3 ("The toothbrush seems to be sleeping") is also somewhat natural, because -- even though it doesn't make sense (toothbrushes don't sleep) -- it does follow the structural rules of English.
+
+Does this make sense?
+
+Practice question 1:
+
+First, let's practice!
+How natural is the following sentence?
+"The athlete ran." 
+The sentence may sound weird, but please judge it as it is written.
+
+Practice question 2:
+
+Great job!  "The athlete ran" is a natural sentence, because it follows the structural rules of English.
+Let's practice some more!
+How natural is the following sentence?
+"The shepherd cooked the ice." 
+The sentence may sound weird, but please judge it as it is written.
+
+Practice question 3:
+
+Great job!  "The shepherd cooked the ice" IS a natural sentence, because -- even though it doesn't make a lot of sense -- it DOES follow the structural rules of English.
+Last practice question!
+How natural is the following sentence?
+"The mile ran the quickly." 
+The sentence may sound weird, but please judge it as it is written.

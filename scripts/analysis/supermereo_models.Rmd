@@ -1,0 +1,401 @@
+---
+title: "supermereo models"
+author: "angelacao"
+date: "2023-06-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = TRUE)
+# knitr::opts_knit$set(root.dir = "/Users/angelacao/Desktop/github_repo/item-validation/scripts/analysis")
+
+# install.packages("ordbetareg")
+library(forcats)
+library(tidyverse)
+library(brms)
+library(broom.mixed)
+library(posterior)
+library(knitr)
+# library(bridgesampling)
+library(loo)
+library(effects)
+library(ordbetareg)
+
+
+
+options(mc.cores = parallel::detectCores(), verbose = TRUE)
+
+```
+
+## Load data
+
+```{r cars}
+df_nat <- read_csv("nat_longform_brms.csv")
+df_typ <- read_csv("typ_longform_brms.csv")
+df_diff <- read_csv("longform_pairdiff_for_brms.csv")
+```
+## Transformations
+```{r pressure, echo=FALSE}
+
+df_nat <- df_nat %>% rename(Rater_ID = `Rater ID`)
+df_nat$coca_freq_log_c <- scale(log(df_nat$coca_freq), center = TRUE, scale = FALSE)
+
+df_nat$Generation <- as.character(df_nat$Generation)
+df_nat$Generation <- ifelse(df_nat$Generation == "filler", paste(df_nat$Typicality, df_nat$Naturalness, sep = "_"), df_nat$Generation)
+  
+df_nat$Generation <- as.factor(df_nat$Generation)
+df_nat$Generation <- relevel(df_nat$Generation, ref = "Typical_Natural")
+
+
+df_typ <- df_typ %>% rename(Rater_ID = `Rater ID`)
+df_typ$coca_freq_log_c <- scale(log(df_typ$coca_freq), center = TRUE, scale = FALSE)
+
+df_typ$Generation <- as.character(df_typ$Generation)
+df_typ$Generation <- ifelse(df_typ$Generation == "filler", paste(df_typ$Typicality, df_typ$Naturalness, sep = "_"), df_typ$Generation)
+
+df_typ$Generation <- as.factor(df_typ$Generation)
+df_typ$Generation <- relevel(df_typ$Generation, ref = "Typical_Natural")
+
+df_diff$PairType <- as.factor(df_diff$PairType)
+df_diff$PairType <- relevel(df_diff$PairType, ref = "same")
+df_diff$Generation <- as.factor(df_diff$Generation)
+df_diff$Generation <- relevel(df_diff$Generation, ref = "filler")
+
+# levels(df_nat$Generation)
+```
+
+## BRMS
+
+# ```{r pressure, echo=FALSE}
+# formula_diff <- Rating/100 ~ 1 + Generation * PairType + (1|Rater_ID) + (1|Verb/New_Pair_ID) + surp1 * surp2 + sent1_nat * sent2_nat + sent1_typ * sent2_typ
+# ```
+
+
+```{r pressure, echo=FALSE}
+nat_bm4 <- brm(
+  Rating/100 ~ 1 + Generation + coca_freq_log_c + (1|Rater_ID) + (1|Verb/Sense_id/Sentence),
+  data = df_nat,
+  family = zero_one_inflated_beta(link = "logit", link_phi = "log", link_zoi = "logit", link_coi = "logit"),
+  backend = 'rstan',
+  file = "outs/nat_bm4"
+)
+
+summary(nat_bm4)
+```
+
+```{r}
+# Define the formula
+formula <- Rating/100 ~ 1 + Generation + coca_freq_log_c + Surprisal + (1|Rater_ID) + (1|Verb/Sense_id/Sentence)
+
+# Fit the ordered beta regression model
+nat_bm3 <- ordbetareg(
+  formula = formula,
+  data = df_nat,
+  file = "outs/nat_bm3"
+)
+
+summary(nat_bm3)
+```
+
+
+```{r}
+
+posterior_samples <- as_draws_df(nat_bm3)
+
+print(posterior_samples)
+
+```
+
+
+```{r}
+
+# Reshape the data
+posterior_samples_long <- posterior_samples %>%
+  gather(key = "Generation", value = "Value") %>%
+  filter(grepl("^b_Generation", Generation))  
+
+posterior_samples_long <- bind_rows(
+  posterior_samples_long,
+  posterior_samples %>%
+    select(b_Intercept) %>%
+    rename(Value = b_Intercept) %>%
+    mutate(Generation = "b_Intercept")
+)
+
+posterior_samples_long <- posterior_samples_long %>%
+  mutate(Generation = factor(Generation, levels = c("b_Generationllama_llamasenses", "b_Generationllama_propbanksenses", "b_Generationreddit", "b_Intercept", "b_GenerationAtypical_Natural", "b_GenerationTypical_Unnatural", "b_GenerationAtypical_Unnatural")))
+
+
+posterior_samples_long <- posterior_samples_long %>%
+  mutate(
+    Generation = forcats::fct_recode(
+      Generation,
+      "LLM-generated with LLM senses" = "b_Generationllama_llamasenses",
+      "LLM-generated with Propbank senses" = "b_Generationllama_propbanksenses",
+      "Corpus-generated" = "b_Generationreddit",
+      "Natural and typical manual" = "b_Intercept",
+      "Natural and atypical manual" = "b_GenerationAtypical_Natural",
+      "Unnatural and typical manual" = "b_GenerationTypical_Unnatural",
+      "Unnatural and atypical manual" = "b_GenerationAtypical_Unnatural"
+    )
+  )
+
+
+```
+
+
+```{r}
+custom_colors <- c(
+  "LLM-generated with LLM senses" = "blue",
+  "LLM-generated with Propbank senses" = "blue",
+  "Corpus-generated" = "blue",
+  "Natural and typical manual" = "blue",
+  "Natural and atypical manual" = "blue",
+  "Unnatural and typical manual" = "blue",
+  "Unnatural and atypical manual" = "blue"
+)
+
+# Plot the density plots and facet wrap
+ggplot(data = posterior_samples_long) +
+  geom_density(aes(x = Value, fill = Generation), alpha = 0.7, show.legend=FALSE) +
+  geom_vline(xintercept = 0, linetype = "dotted") + 
+  labs(x = "Value", y = "Density", fill = "Generation") +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),  # Remove y-axis tick labels
+    axis.ticks.y = element_blank(),  # Remove y-axis ticks
+    panel.grid.major.y = element_blank(),  # Remove y-axis gridlines
+    panel.grid.minor.y = element_blank()
+    # plot.background = element_rect(color = "black", fill = NA, size = 1)
+  ) +
+  scale_fill_manual(values = custom_colors) +
+  facet_wrap(~ Generation, scales = "free_y", nrow = 7, strip.position="left") +
+  theme(
+    strip.text.y.left = element_text(angle = 0) 
+  ) +
+  labs(
+    x = 'Log-odds (Naturalness)',
+    y = NULL,
+    fill = 'Generation procedure'
+  )
+
+# ggsave("plot.png", height = 8, width = 10, bg = "white")
+```
+```{r}
+unique_values <- unique(posterior_samples_long$Generation)
+unique_values
+```
+
+```{r pressure, echo=FALSE}
+typ_bm4 <- brm(
+  Rating/100 ~ 1 + Generation + coca_freq_log_c + (1|Rater_ID) + (1|Verb/Sense_id/Sentence),
+  data = df_typ,
+  family = zero_one_inflated_beta(link = "logit", link_phi = "log", link_zoi = "logit", link_coi = "logit"),
+  backend = 'rstan',
+  file = "outs/typ_bm4"
+)
+
+summary(typ_bm4)
+```
+
+```{r}
+# # Fit the ordered beta regression model
+typ_bm3 <- ordbetareg(
+  formula = formula,
+  data = df_typ,
+  file = "outs/typ_bm3"
+)
+
+summary(typ_bm3)
+```
+
+
+```{r}
+posterior_samples_typ <- as_draws_df(typ_bm4)
+
+
+# Reshape the data
+posterior_samples_long_typ <- posterior_samples_typ %>%
+  gather(key = "Generation", value = "Value") %>%
+  filter(grepl("^b_Generation", Generation))  # Filter only columns related to "Generation"
+
+posterior_samples_long_typ <- bind_rows(
+  posterior_samples_long_typ,
+  posterior_samples_typ %>%
+    select(b_Intercept) %>%
+    rename(Value = b_Intercept) %>%
+    mutate(Generation = "b_Intercept")
+)
+
+posterior_samples_long_typ <- posterior_samples_long_typ %>%
+  mutate(Generation = factor(Generation, levels = c("b_Generationllama_llamasenses", "b_Generationllama_propbanksenses", "b_Generationreddit", "b_Intercept", "b_GenerationAtypical_Natural", "b_GenerationTypical_Unnatural", "b_GenerationAtypical_Unnatural")))
+
+
+posterior_samples_long_typ <- posterior_samples_long_typ %>%
+  mutate(
+    Generation = forcats::fct_recode(
+      Generation,
+      "LLM-generated with LLM senses" = "b_Generationllama_llamasenses",
+      "LLM-generated with Propbank senses" = "b_Generationllama_propbanksenses",
+      "Corpus-generated" = "b_Generationreddit",
+      "Natural and typical manual" = "b_Intercept",
+      "Natural and atypical manual" = "b_GenerationAtypical_Natural",
+      "Unnatural and typical manual" = "b_GenerationTypical_Unnatural",
+      "Unnatural and atypical manual" = "b_GenerationAtypical_Unnatural"
+    )
+  )
+
+
+# Plot the density plots and facet wrap
+ggplot(data = posterior_samples_long_typ) +
+  geom_density(aes(x = Value, fill = Generation), alpha = 0.7, show.legend=FALSE) +
+  geom_vline(xintercept = 0, linetype = "dotted") + 
+  labs(x = "Value", y = "Density", fill = "Generation") +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),  # Remove y-axis tick labels
+    axis.ticks.y = element_blank(),  # Remove y-axis ticks
+    panel.grid.major.y = element_blank(),  # Remove y-axis gridlines
+    panel.grid.minor.y = element_blank(),
+    # plot.background = element_rect(color = "black", fill = NA, size = 1)
+  ) +
+  scale_fill_manual(values = custom_colors) +
+  facet_wrap(~ Generation, scales = "free_y", nrow = 7, strip.position="left") +
+  theme(
+    strip.text.y.left = element_text(angle = 0) 
+  ) +
+  labs(
+    x = 'Log-odds (Typicality)',
+    y = NULL,
+    fill = 'Generation procedure'
+  )
+```
+```{r}
+head(df_diff)
+```
+
+```{r pressure, echo=FALSE}
+diff_bm <- brm(
+  Rating/100 ~ 1 + Generation * PairType + (1|Rater_ID) + (1|Verb/New_Pair_ID) + surp1 * surp2 + sent1_nat * sent2_nat + sent1_typ * sent2_typ,
+  #interaction terms
+  data = df_diff,
+  family = zero_one_inflated_beta(link = "logit", link_phi = "log", link_zoi = "logit", link_coi = "logit"),
+  backend = 'rstan',
+  file = "outs/diff_bm"
+)
+
+summary(diff_bm)
+```
+
+```{r}
+formula_diff <- Rating/100 ~ 1 + Generation * PairType + (1|Rater_ID) + (1|Verb/New_Pair_ID) + surp1 * surp2 + mean_nat_rating_1 * mean_nat_rating_2 + mean_typ_rating_1 * mean_typ_rating_2
+
+# Fit the ordered beta regression model
+diff_bm2 <- ordbetareg(
+  formula = formula_diff,
+  data = df_diff,
+  file = "outs/diff_bm2"
+)
+
+summary(diff_bm2)
+```
+
+```{r}
+posterior_samples_diff <- as_draws_df(diff_bm)
+# Reshape the data
+
+posterior_samples_long_diff <- posterior_samples_diff %>%
+  gather(key = "Generation", value = "Value") %>%
+  filter(grepl("^b_Generation", Generation))  # Filter only columns related to "Generation"
+
+# Add b_Intercept
+posterior_samples_long_diff <- bind_rows(
+  posterior_samples_long_diff,
+  posterior_samples_diff %>%
+    select(b_Intercept) %>%
+    rename(Value = b_Intercept) %>%
+    mutate(Generation = "b_Intercept")
+)
+
+# Add b_PairTypedifferent
+posterior_samples_long_diff <- bind_rows(
+  posterior_samples_long_diff,
+  posterior_samples_diff %>%
+    select(b_PairTypedifferent) %>%
+    rename(Value = b_PairTypedifferent) %>%
+    mutate(Generation = "b_PairTypedifferent")
+)
+
+
+unique(posterior_samples_long_diff$Generation)
+```
+
+```{r}
+
+posterior_samples_long_diff <- posterior_samples_long_diff %>%
+  mutate(Generation = factor(Generation, levels = c("b_Generationchatgpt_nonpropbank", "b_Generationchatgpt_propbank", "b_Generationreddit", "b_Intercept", "b_PairTypedifferent",
+                                                    "b_Generationchatgpt_nonpropbank:PairTypedifferent",
+                                                    "b_Generationchatgpt_propbank:PairTypedifferent",
+                                                    "b_Generationreddit:PairTypedifferent")))
+
+head(posterior_samples_long_diff)
+```
+
+```{r}
+posterior_samples_long_diff <- posterior_samples_long_diff %>%
+  mutate(
+    Generation = forcats::fct_recode(
+      Generation,
+      "LLM-generated with LLM senses" = "b_Generationchatgpt_nonpropbank",
+      "LLM-generated with Propbank senses" = "b_Generationchatgpt_propbank",
+      "Corpus-generated" = "b_Generationreddit",
+      "Manually-generated" = "b_Intercept",
+      "Different-sense pair" = "b_PairTypedifferent",
+      "LLM-generated with LLM senses * Different-sense pair" = "b_Generationchatgpt_nonpropbank:PairTypedifferent",
+      "LLM-generated with Propbank senses * Different-sense pair" = "b_Generationchatgpt_propbank:PairTypedifferent",
+      "Corpus-generated * Different-sense pair" = "b_Generationreddit:PairTypedifferent"
+    )
+  )
+
+head(posterior_samples_long_diff)
+```
+
+```{r}
+
+custom_colors <- c(
+  "LLM-generated with LLM senses" = "blue",
+  "LLM-generated with Propbank senses" = "blue",
+  "Corpus-generated" = "blue",
+  "Manually-generated" = "blue",
+  "Different-sense pair" = "blue",
+  "LLM-generated with LLM senses * Different-sense pair" = "blue",
+  "LLM-generated with Propbank senses * Different-sense pair" = "blue",
+  "Corpus-generated * Different-sense pair" = "blue"
+)
+
+# Plot the density plots and facet wrap
+ggplot(data = posterior_samples_long_diff) +
+  geom_density(aes(x = Value, fill = Generation), alpha = 0.7, show.legend=FALSE) +
+  geom_vline(xintercept = 0, linetype = "dotted") + 
+  labs(x = "Value", y = "Density", fill = "Generation") +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),  # Remove y-axis tick labels
+    axis.ticks.y = element_blank(),  # Remove y-axis ticks
+    panel.grid.major.y = element_blank(),  # Remove y-axis gridlines
+    panel.grid.minor.y = element_blank()
+    # plot.background = element_rect(color = "black", fill = NA, size = 1)
+  ) +
+  scale_fill_manual(values = custom_colors) +
+  facet_wrap(~ Generation, scales = "free_y", nrow = 8, strip.position="left") +
+  theme(
+    strip.text.y.left = element_text(angle = 0) 
+  ) +
+  labs(
+    x = 'Log-odds',
+    y = NULL,
+    fill = 'Generation procedure'
+  )
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

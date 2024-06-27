@@ -1,0 +1,27 @@
+Instructions:
+
+Instructions
+
+In this survey, you will be presented with 70 sets of two situations. Then, you will be asked to how similar or different the situations are compared to each other. For example, consider the following situations described by "run":
+Examples:
+
+1. The athlete ran the race.
+2. The manager ran the organization.
+
+Example 1 (The athlete ran the race) involves the physical movement of an athlete participating in a race. 
+Example 2 (The manager ran the organization) involves the managing and leadership of a company.
+Therefore, Example 1 is extremely different compared to Example 2 since the running of Example 1 involves physical movement whereas the running of Example 2 involves leadership.  
+
+Does this make sense?
+
+Practice question 1:
+
+To practice, rate how different the situations described by "serve" in (a) and (b) are from each other.
+(a) The man served his time in prison.
+(b) The waiter served the dish.
+
+Practice question 2:
+
+To practice, rate how different the situations described by "read" in (a) and (b) are from each other.
+(a) The student read the question.
+(b) The child read the book.
