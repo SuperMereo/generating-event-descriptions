@@ -56,7 +56,7 @@ anonymization and readability. Each row details one annotation instance.
 ### `scripts`
 
 This directory contains scripts to both perform statistical analyses on 
-our raw data and to generate the experimental items.
+our raw data and generate the experimental items.
 
 ### `materials`
 
