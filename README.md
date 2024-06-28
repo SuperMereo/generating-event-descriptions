@@ -1,4 +1,4 @@
-# Item Validation for SuperMereo Type-Level Annotation
+# Generating Event Descriptions under Syntactic and Semantic Constraints
 
 This repository contains materials, data, and analysis code for the 
 following paper:
