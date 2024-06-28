@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:ubuntu-20.04
+FROM jupyter/datascience-notebook:notebook-6.5.4
 
-RUN pip install allennlp==2.9.3 &&\
-    R -e "install.packages(c('tidyverse', 'lme4', 'ggrepel', 'glmmTMB'), repos='http://cran.us.r-project.org')"
+RUN pip install --upgrade pip cmdstanpy==1.1.0 arviz==0.15.1 torch==2.0.1 'transformers[torch]' &&\
+    python -c "from cmdstanpy import install_cmdstan; install_cmdstan(version='2.35')"

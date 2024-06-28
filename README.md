@@ -19,7 +19,7 @@ git clone https://github.com/SuperMereo/generating-event-descriptions.git
 Then, build the Docker image:
 
 ```bash
-cd item-validation
+cd generating-event-descriptions
 docker build -t generating-event-descriptions .
 ```
 
