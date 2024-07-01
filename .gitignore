@@ -1,5 +1,10 @@
 **/.DS_Store
 .ipynb_checkpoints/
 .venv
+.ipython
+.jupyter
+.local
+.npm
+.cache
 scripts/generation/outs/
 survey_materials/outs/
