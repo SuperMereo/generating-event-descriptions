@@ -8,3 +8,5 @@
 .cache
 scripts/generation/outs/
 survey_materials/outs/
+scripts/analysis/nattyp_processing.py
+scripts/analysis/distinctiveness_processing.py
