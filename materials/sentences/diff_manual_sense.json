@@ -1,0 +1,374 @@
+[
+    {
+        "sentence_1": "The bee found the flower.",
+        "sentence_2": "The court found the liability.",
+        "sense_1": "find.01: discovery (physical)",
+        "sense_2": "find.01: discovery (abstract)"
+    },
+    {
+        "sentence_1": "The bee found the flower.",
+        "sentence_2": "The intruder found the key.",
+        "sense_1": "find.01: discovery (physical)",
+        "sense_2": "find.01: discovery (physical)"
+    },
+    {
+        "sentence_1": "The tailor lined the coat.",
+        "sentence_2": "The insulation lined the attic.",
+        "sense_1": "line.01: provide a lining, accompany in line-like fashion",
+        "sense_2": "line.01: provide a lining, accompany in line-like fashion"
+    },
+    {
+        "sentence_1": "The tailor lined the coat.",
+        "sentence_2": "The scribbles lined the notebook.",
+        "sense_1": "line.01: provide a lining, accompany in line-like fashion",
+        "sense_2": "line.03: puts lines on"
+    },
+    {
+        "sentence_1": "The hospital discharged the patient.",
+        "sentence_2": "The bank discharged the loan.",
+        "sense_1": "discharge.101: to release, release from a location (not stuff being released itself)",
+        "sense_2": "discharge.01: remove supply, as with electricity"
+    },
+    {
+        "sentence_1": "The hospital discharged the patient.",
+        "sentence_2": "The army discharged the soldier.",
+        "sense_1": "discharge.101: to release, release from a location (not stuff being released itself)",
+        "sense_2": "discharge.101: to release, release from a location (not stuff being released itself)"
+    },
+    {
+        "sentence_1": "The athlete threw the javelin.",
+        "sentence_2": "The referee threw the flag.",
+        "sense_1": "throw.01: throw, sending through the air, manually, projection of an object through space (physical)",
+        "sense_2": "throw.01: throw, sending through the air, manually, projection of an object through space (physical)"
+    },
+    {
+        "sentence_1": "The athlete threw the javelin.",
+        "sentence_2": "The team threw the match.",
+        "sense_1": "throw.01: throw, sending through the air, manually, projection of an object through space (physical)",
+        "sense_2": "throw.01: throw, sending through the air, manually, projection of an object through space (abstract)"
+    },
+    {
+        "sentence_1": "The farmer butchered the goat.",
+        "sentence_2": "The consultant butchered the project.",
+        "sense_1": "butcher.01: cut up meat for sale (physical)",
+        "sense_2": "butcher.01: cut up meat for sale (abstract)"
+    },
+    {
+        "sentence_1": "The farmer butchered the goat.",
+        "sentence_2": "The hunter butchered the prey.",
+        "sense_1": "butcher.01: cut up meat for sale (physical)",
+        "sense_2": "butcher.01: cut up meat for sale (physical)"
+    },
+    {
+        "sentence_1": "The dog scratched the itch.",
+        "sentence_2": "The patient scratched the rash.",
+        "sense_1": "scratch.02: cut shallowly, rake the surface sharply (physical)",
+        "sense_2": "scratch.02: cut shallowly, rake the surface sharply (abstract)"
+    },
+    {
+        "sentence_1": "The dog scratched the itch.",
+        "sentence_2": "The movers scratched the paint.",
+        "sense_1": "scratch.02: cut shallowly, rake the surface sharply (physical)",
+        "sense_2": "scratch.02: cut shallowly, rake the surface sharply (physical)"
+    },
+    {
+        "sentence_1": "The college permitted the event.",
+        "sentence_2": "The weather permitted the picnic.",
+        "sense_1": "permit.01: permit, let, allow (physical)",
+        "sense_2": "permit.01: permit, let, allow (abstract)"
+    },
+    {
+        "sentence_1": "The college permitted the event.",
+        "sentence_2": "The dad permitted the misbehavior.",
+        "sense_1": "permit.01: permit, let, allow (physical)",
+        "sense_2": "permit.01: permit, let, allow (physical)"
+    },
+    {
+        "sentence_1": "The architect designed the building.",
+        "sentence_2": "The strategist designed the message.",
+        "sense_1": "design.01: design (physical)",
+        "sense_2": "design.01: design (abstract)"
+    },
+    {
+        "sentence_1": "The architect designed the building.",
+        "sentence_2": "The artist designed the exhibit.",
+        "sense_1": "design.01: design (physical)",
+        "sense_2": "design.01: design (physical)"
+    },
+    {
+        "sentence_1": "The company dismissed the worker.",
+        "sentence_2": "The teacher dismissed the class.",
+        "sense_1": "dismiss.01: remove, release (abstract)",
+        "sense_2": "dismiss.01: remove, release (abstract)"
+    },
+    {
+        "sentence_1": "The company dismissed the worker.",
+        "sentence_2": "The judge dismissed the lawsuit.",
+        "sense_1": "dismiss.01: remove, release (abstract)",
+        "sense_2": "dismiss.01: remove, release (physical)"
+    },
+    {
+        "sentence_1": "The botanist recognized the mushroom.",
+        "sentence_2": "The king recognized the bravery.",
+        "sense_1": "recognize.02: acknowledge as true/familiar",
+        "sense_2": "recognize.01: applaud/give accolades to"
+    },
+    {
+        "sentence_1": "The botanist recognized the mushroom.",
+        "sentence_2": "The doctor recognized the symptom.",
+        "sense_1": "recognize.02: acknowledge as true/familiar",
+        "sense_2": "recognize.02: acknowledge as true/familiar"
+    },
+    {
+        "sentence_1": "The couple split the check.",
+        "sentence_2": "The friends split the pizza.",
+        "sense_1": "split.01: divide, separate (abstract)",
+        "sense_2": "split.01: divide, separate (abstract)"
+    },
+    {
+        "sentence_1": "The couple split the check.",
+        "sentence_2": "The lumberjack split the log.",
+        "sense_1": "split.01: divide, separate (abstract)",
+        "sense_2": "split.01: divide, separate (physical)"
+    },
+    {
+        "sentence_1": "The guards secured the location.",
+        "sentence_2": "The lock secured the safe.",
+        "sense_1": "secure.02: make secure, literally or figuratively",
+        "sense_2": "secure.02: make secure, literally or figuratively"
+    },
+    {
+        "sentence_1": "The guards secured the location.",
+        "sentence_2": "The applicant secured the funding.",
+        "sense_1": "secure.02: make secure, literally or figuratively",
+        "sense_2": "secure.01 - get"
+    },
+    {
+        "sentence_1": "The gardener clipped the hedge.",
+        "sentence_2": "The editor clipped the movie.",
+        "sense_1": "clip.01: to cut, cut off, or cut out (physical)",
+        "sense_2": "clip.01: to cut, cut off, or cut out (abstract)"
+    },
+    {
+        "sentence_1": "The gardener clipped the hedge.",
+        "sentence_2": "The stylist clipped the ponytail.",
+        "sense_1": "clip.01: to cut, cut off, or cut out (physical)",
+        "sense_2": "clip.01: to cut, cut off, or cut out (physical)"
+    },
+    {
+        "sentence_1": "The baby arranged the blocks.",
+        "sentence_2": "The secretary arranged the meeting.",
+        "sense_1": "arrange.01: build (physical)",
+        "sense_2": "arrange.01: build (abstract)"
+    },
+    {
+        "sentence_1": "The baby arranged the blocks.",
+        "sentence_2": "The florist arranged the flowers.",
+        "sense_1": "arrange.01: build (physical)",
+        "sense_2": "arrange.01: build (physical)"
+    },
+    {
+        "sentence_1": "The cook smashed the potatoes.",
+        "sentence_2": "The shoe smashed the bug.",
+        "sense_1": "smash.01: break violently (physical)",
+        "sense_2": "smash.01: break violently (physical)"
+    },
+    {
+        "sentence_1": "The cook smashed the potatoes.",
+        "sentence_2": "The startup smashed the competition.",
+        "sense_1": "smash.01: break violently (physical)",
+        "sense_2": "smash.01: break violently (abstract)"
+    },
+    {
+        "sentence_1": "The scientist discovered the cure.",
+        "sentence_2": "The wife discovered the affair.",
+        "sense_1": "discover.01: find (out) (physical)",
+        "sense_2": "discover.01: find (out) (abstract)"
+    },
+    {
+        "sentence_1": "The scientist discovered the cure.",
+        "sentence_2": "The explorer discovered the island.",
+        "sense_1": "discover.01: find (out) (physical)",
+        "sense_2": "discover.01: find (out) (physical)"
+    },
+    {
+        "sentence_1": "The assassin poisoned the prince.",
+        "sentence_2": "The insult poisoned the relationship.",
+        "sense_1": "poison.01: kill via poison, kill or make sick via poison (physical)",
+        "sense_2": "poison.01: kill via poison, kill or make sick via poison (abstract)"
+    },
+    {
+        "sentence_1": "The assassin poisoned the prince.",
+        "sentence_2": "The berry poisoned the forager.",
+        "sense_1": "poison.01: kill via poison, kill or make sick via poison (physical)",
+        "sense_2": "poison.01: kill via poison, kill or make sick via poison (physical)"
+    },
+    {
+        "sentence_1": "The assistant carried the purse.",
+        "sentence_2": "The truck carried the goods.",
+        "sense_1": "carry.01: bring with, have (physical)",
+        "sense_2": "carry.01: bring with, have (physical)"
+    },
+    {
+        "sentence_1": "The assistant carried the purse.",
+        "sentence_2": "The actor carried the performance.",
+        "sense_1": "carry.01: bring with, have (physical)",
+        "sense_2": "carry.01: bring with, have (abstract)"
+    },
+    {
+        "sentence_1": "The washer shrunk the laundry.",
+        "sentence_2": "The failure shrunk the ego.",
+        "sense_1": "shrink.01: become or make smaller (physical)",
+        "sense_2": "shrink.01: become or make smaller (abstract)"
+    },
+    {
+        "sentence_1": "The washer shrunk the laundry.",
+        "sentence_2": "The sun shrunk the leaves.",
+        "sense_1": "shrink.01: become or make smaller (physical)",
+        "sense_2": "shrink.01: become or make smaller (physical)"
+    },
+    {
+        "sentence_1": "The rider mounted the horse.",
+        "sentence_2": "The opponent mounted the defense.",
+        "sense_1": "mount.01: intentional climber (physical)",
+        "sense_2": "mount.01: intentional climber (abstract)"
+    },
+    {
+        "sentence_1": "The rider mounted the horse.",
+        "sentence_2": "The cyclist mounted the bike.",
+        "sense_1": "mount.01: intentional climber (physical)",
+        "sense_2": "mount.01: intentional climber (physical)"
+    },
+    {
+        "sentence_1": "The comedian mocked the politician.",
+        "sentence_2": "The plastic mocked the marble.",
+        "sense_1": "mock.01: make fun of (physical)",
+        "sense_2": "mock.01: make fun of (abstract)"
+    },
+    {
+        "sentence_1": "The comedian mocked the politician.",
+        "sentence_2": "The classmates mocked the acne.",
+        "sense_1": "mock.01: make fun of (physical)",
+        "sense_2": "mock.01: make fun of (physical)"
+    },
+    {
+        "sentence_1": "The diner ordered the wine.",
+        "sentence_2": "The shopper ordered the shoes.",
+        "sense_1": "order.02: request to be delivered",
+        "sense_2": "order.02: request to be delivered"
+    },
+    {
+        "sentence_1": "The diner ordered the wine.",
+        "sentence_2": "The general ordered the invasion.",
+        "sense_1": "order.02: request to be delivered",
+        "sense_2": "order.01 - impelled action"
+    },
+    {
+        "sentence_1": "The chauffeur drove the limo.",
+        "sentence_2": "The babysitter drove the kids.",
+        "sense_1": "drive.01: drive or be driven around in a vehicle",
+        "sense_2": "drive.01: drive or be driven around in a vehicle"
+    },
+    {
+        "sentence_1": "The chauffeur drove the limo.",
+        "sentence_2": "The advertisement drove the demand.",
+        "sense_1": "drive.01: drive or be driven around in a vehicle",
+        "sense_2": "drive.02: cause to move or become, impelled, inspired"
+    },
+    {
+        "sentence_1": "The housekeeper drained the tub.",
+        "sentence_2": "The work drained the student.",
+        "sense_1": "drain.01: unfill, empty (physical)",
+        "sense_2": "drain.01: unfill, empty (abstract)"
+    },
+    {
+        "sentence_1": "The housekeeper drained the tub.",
+        "sentence_2": "The cook drained the pasta.",
+        "sense_1": "drain.01: unfill, empty (physical)",
+        "sense_2": "drain.01: unfill, empty (physical)"
+    },
+    {
+        "sentence_1": "The child slammed the door.",
+        "sentence_2": "The lawyer slammed the table.",
+        "sense_1": "slam.02: hit hard (physical)",
+        "sense_2": "slam.02: hit hard (physical)"
+    },
+    {
+        "sentence_1": "The child slammed the door.",
+        "sentence_2": "The congressman slammed the critic.",
+        "sense_1": "slam.02: hit hard (physical)",
+        "sense_2": "slam.02: hit hard (abstract)"
+    },
+    {
+        "sentence_1": "The thief stole the painting.",
+        "sentence_2": "The dancer stole the show.",
+        "sense_1": "steal.01: to commit theft (physical)",
+        "sense_2": "steal.01: to commit theft (abstract)"
+    },
+    {
+        "sentence_1": "The thief stole the painting.",
+        "sentence_2": "The colonizer stole the land.",
+        "sense_1": "steal.01: to commit theft (physical)",
+        "sense_2": "steal.01: to commit theft (physical)"
+    },
+    {
+        "sentence_1": "The stylist noticed the wrinkle.",
+        "sentence_2": "The inspector noticed the footprints.",
+        "sense_1": "notice.01: become aware of (physical)",
+        "sense_2": "notice.01: become aware of (physical)"
+    },
+    {
+        "sentence_1": "The stylist noticed the wrinkle.",
+        "sentence_2": "The accountant noticed the fraud.",
+        "sense_1": "notice.01: become aware of (physical)",
+        "sense_2": "notice.01: become aware of (abstract)"
+    },
+    {
+        "sentence_1": "The car bumped the curb.",
+        "sentence_2": "The chair bumped the desk.",
+        "sense_1": "bump.01: hit gently (physical)",
+        "sense_2": "bump.01: hit gently (physical)"
+    },
+    {
+        "sentence_1": "The car bumped the curb.",
+        "sentence_2": "The schedule bumped the meeting.",
+        "sense_1": "bump.01: hit gently (physical)",
+        "sense_2": "bump.01: hit gently (abstract)"
+    },
+    {
+        "sentence_1": "The player bounced the ball.",
+        "sentence_2": "The bank bounced the check.",
+        "sense_1": "bounce.01: boing boing boing, (physical)",
+        "sense_2": "bounce.01: boing boing boing, (abstract)"
+    },
+    {
+        "sentence_1": "The player bounced the ball.",
+        "sentence_2": "The mom bounced the toddler.",
+        "sense_1": "bounce.01: boing boing boing, (physical)",
+        "sense_2": "bounce.01: boing boing boing, (physical)"
+    },
+    {
+        "sentence_1": "The mailman delivered the package.",
+        "sentence_2": "The visitor delivered the gift.",
+        "sense_1": "deliver.01: give, send",
+        "sense_2": "deliver.01: give, send"
+    },
+    {
+        "sentence_1": "The mailman delivered the package.",
+        "sentence_2": "The midwife delivered the baby.",
+        "sense_1": "deliver.01: give, send",
+        "sense_2": "deliver.101: give birth, assist in giving birth, giving birth or assisting in giving birth"
+    },
+    {
+        "sentence_1": "The kid tore the paper.",
+        "sentence_2": "The nail tore the fabric.",
+        "sense_1": "tear.01: to pull apart, separate forcefully (physical)",
+        "sense_2": "tear.01: to pull apart, separate forcefully (physical)"
+    },
+    {
+        "sentence_1": "The kid tore the paper.",
+        "sentence_2": "The poem tore the heartstrings.",
+        "sense_1": "tear.01: to pull apart, separate forcefully (physical)",
+        "sense_2": "tear.01: to pull apart, separate forcefully (abstract)"
+    }
+]
