@@ -8,50 +8,50 @@ functions {
 }
 
 data {
-  int<lower=1> N_resp;                           // number of responses
-  int<lower=1> N_subj;                           // number of subjects
-  int<lower=1> N_verb;                           // number of verbs
-  int<lower=1> N_sense;                          // number of senses
-  int<lower=1> N_item;                           // number of items
-  int<lower=1> N_fixed;                          // number of fixed predictors
-  int<lower=1> N_by_subj;                        // number of random by-subject predictors
-  int<lower=1> N_by_verb;                        // number of random by-verb predictors
-  int<lower=1> N_by_sense;                       // number of random by-sense predictors
-  int<lower=1> N_by_item;                        // number of random by-item predictors
-  matrix[N_resp,N_fixed] fixed_predictors;       // predictors including intercept
-  matrix[N_resp,N_by_subj] by_subj_predictors;   // by-subject predictors including intercept
-  matrix[N_resp,N_by_verb] by_verb_predictors;   // by-verb predictors including intercept
-  matrix[N_resp,N_by_sense] by_sense_predictors; // by-sense predictors including intercept
-  matrix[N_resp,N_by_item] by_item_predictors;   // by-item predictors including intercept
-  int<lower=1,upper=N_subj> subj[N_resp];        // subject who gave response n
-  int<lower=1,upper=N_verb> verb[N_resp];        // verb corresponding to response n
-  int<lower=1,upper=N_sense> sense[N_resp];      // sense corresponding to response n
-  int<lower=1,upper=N_item> item[N_resp];        // item corresponding to response n
-  int<lower=1,upper=3> resp_bin[N_resp];         // whether a response is 0=1, (0, 1)=2, or 1=2
-  real<lower=0,upper=1> resp[N_resp];            // [0, 1] responses                                    
+  int<lower=1> N_resp;                             // number of responses
+  int<lower=1> N_subj;                             // number of subjects
+  int<lower=1> N_verb;                             // number of verbs
+  int<lower=1> N_sense;                            // number of senses
+  int<lower=1> N_item;                             // number of items
+  int<lower=1> N_fixed;                            // number of fixed predictors
+  int<lower=1> N_by_subj;                          // number of random by-subject predictors
+  int<lower=1> N_by_verb;                          // number of random by-verb predictors
+  int<lower=1> N_by_sense;                         // number of random by-sense predictors
+  int<lower=1> N_by_item;                          // number of random by-item predictors
+  matrix[N_resp,N_fixed] fixed_predictors;         // predictors including intercept
+  matrix[N_resp,N_by_subj] by_subj_predictors;     // by-subject predictors including intercept
+  matrix[N_resp,N_by_verb] by_verb_predictors;     // by-verb predictors including intercept
+  matrix[N_resp,N_by_sense] by_sense_predictors;   // by-sense predictors including intercept
+  matrix[N_resp,N_by_item] by_item_predictors;     // by-item predictors including intercept
+  array[N_resp] int<lower=1,upper=N_subj> subj;    // subject who gave response n
+  array[N_resp] int<lower=1,upper=N_verb> verb;    // verb corresponding to response n
+  array[N_resp] int<lower=1,upper=N_sense> sense;  // sense corresponding to response n
+  array[N_resp] int<lower=1,upper=N_item> item;    // item corresponding to response n
+  array[N_resp] int<lower=1,upper=3> resp_bin;     // whether a response is 0=1, (0, 1)=2, or 1=2
+  array[N_resp] real<lower=0,upper=1> resp;        // [0, 1] responses                                    
 }
 
 parameters {
-  vector[N_fixed] fixed_coefs;                   // fixed coefficients (including intercept)
-  corr_matrix[N_by_subj] subj_corr;              // prior by-subject coefficients correlations
-  vector<lower=0>[N_by_subj] subj_scale_inv;     // prior by-subject coefficients inverse scale
-  corr_matrix[N_by_verb] verb_corr;              // prior by-verb coefficients correlations
-  vector<lower=0>[N_by_verb] verb_scale_inv;     // prior by-verb coefficients inverse scale
-  corr_matrix[N_by_sense] sense_corr;            // prior by-sense coefficients correlations
-  vector<lower=0>[N_by_sense] sense_scale_inv;   // prior by-sense coefficients inverse scale
-  corr_matrix[N_by_item] item_corr;              // prior by-item coefficients correlations
-  vector<lower=0>[N_by_item] item_scale_inv;     // prior by-item coefficients inverse scale
-  vector[N_by_subj] by_subj_coefs[N_subj];       // by-subject coefficients (including intercept)
-  vector[N_by_verb] by_verb_coefs[N_verb];       // by-verb coefficients (including intercept)
-  vector[N_by_sense] by_sense_coefs[N_sense];    // by-sense coefficients (including intercept)        
-  vector[N_by_item] by_item_coefs[N_item];       // by-item coefficients (including intercept)
-  real<upper=0> cutpoint0;                       // the cutpoint for 0 v. (0, 1]
-  real interval_size_logmean;                    // the interval size mean across subjects in log-space
-  real sample_size_logmean;                      // the sample size mean across subjects in log-space
-  real<lower=0> interval_size_logstd;            // the interval size standard deviation across subjects in log-space
-  real<lower=0> sample_size_logstd;              // the sample size standard deviation across subjects in log-space    
-  vector[N_subj] interval_size_shift_z;          // the z-score of the interval size shift for each subject in log-space
-  vector[N_subj] sample_size_shift_z;            // the z-score of the sample size shift for each subject in log-space
+  vector[N_fixed] fixed_coefs;                     // fixed coefficients (including intercept)
+  corr_matrix[N_by_subj] subj_corr;                // prior by-subject coefficients correlations
+  vector<lower=0>[N_by_subj] subj_scale_inv;       // prior by-subject coefficients inverse scale
+  corr_matrix[N_by_verb] verb_corr;                // prior by-verb coefficients correlations
+  vector<lower=0>[N_by_verb] verb_scale_inv;       // prior by-verb coefficients inverse scale
+  corr_matrix[N_by_sense] sense_corr;              // prior by-sense coefficients correlations
+  vector<lower=0>[N_by_sense] sense_scale_inv;     // prior by-sense coefficients inverse scale
+  corr_matrix[N_by_item] item_corr;                // prior by-item coefficients correlations
+  vector<lower=0>[N_by_item] item_scale_inv;       // prior by-item coefficients inverse scale
+  array[N_subj] vector[N_by_subj] by_subj_coefs;   // by-subject coefficients (including intercept)
+  array[N_verb] vector[N_by_verb] by_verb_coefs;   // by-verb coefficients (including intercept)
+  array[N_sense] vector[N_by_sense] by_sense_coefs;// by-sense coefficients (including intercept)        
+  array[N_item] vector[N_by_item] by_item_coefs;   // by-item coefficients (including intercept)
+  real<upper=0> cutpoint0;                         // the cutpoint for 0 v. (0, 1]
+  real interval_size_logmean;                      // the interval size mean across subjects in log-space
+  real sample_size_logmean;                        // the sample size mean across subjects in log-space
+  real<lower=0> interval_size_logstd;              // the interval size standard deviation across subjects in log-space
+  real<lower=0> sample_size_logstd;                // the sample size standard deviation across subjects in log-space    
+  vector[N_subj] interval_size_shift_z;            // the z-score of the interval size shift for each subject in log-space
+  vector[N_subj] sample_size_shift_z;              // the z-score of the sample size shift for each subject in log-space
 }
 
 transformed parameters {
@@ -81,8 +81,8 @@ transformed parameters {
   );
 
   // compute the predictions
-  real prediction[N_resp];
-  real interval_mean[N_resp];
+  vector[N_resp] prediction;
+  vector[N_resp] interval_mean;
   matrix[N_resp,2] cutpoints;
 
   for (n in 1:N_resp) {
