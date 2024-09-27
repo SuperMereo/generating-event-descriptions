@@ -6,7 +6,10 @@
 .local
 .npm
 .cache
+.cmdstan
 scripts/generation/outs/
 survey_materials/outs/
 scripts/analysis/nattyp_processing.py
 scripts/analysis/distinctiveness_processing.py
+fits/*/*/*
+scripts/analysis/models/ordered-beta
