@@ -1,12 +1,6 @@
 # Generating Event Descriptions under Syntactic and Semantic Constraints
 
-This repository contains materials, data, and analysis code for the 
-following paper:
-
-> Cao, Angela, Faye Holt, Jonas Chan, Stephanie Richter, Lelia Glass, and Aaron Steven White. 2024. [Generating event descriptions under syntactic and semantic constraints](https://ling.auf.net/lingbuzz/008208/current.pdf).
-
-We ask that you cite both that paper and this repository if you use 
-the code or data found here.
+This repository does not point to the associated paper for the time being for purposes of anonymity.
 
 ## Getting Started
 
